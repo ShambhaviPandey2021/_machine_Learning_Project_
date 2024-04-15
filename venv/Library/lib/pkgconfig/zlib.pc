@@ -1,0 +1,13 @@
+prefix=D:/_machine_Learning_Project_/venv/Library
+exec_prefix=D:/_machine_Learning_Project_/venv/Library
+libdir=D:/_machine_Learning_Project_/venv/Library/lib
+sharedlibdir=D:/_machine_Learning_Project_/venv/Library/lib
+includedir=D:/_machine_Learning_Project_/venv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
